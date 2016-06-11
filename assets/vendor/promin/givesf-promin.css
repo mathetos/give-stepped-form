@@ -1,0 +1,49 @@
+/* can be used for validation */
+
+.promin input[type=color].error,
+.promin input[type=date].error,
+.promin input[type=datetime].error,
+.promin input[type=datetime-local].error,
+.promin input[type=email].error,
+.promin input[type=file].error,
+.promin input[type=month].error,
+.promin input[type=number].error,
+.promin input[type=password].error,
+.promin input[type=range].error,
+.promin input[type=search].error,
+.promin input[type=tel].error,
+.promin input[type=time].error,
+.promin input[type=text].error,
+.promin input[type=url].error,
+.promin input[type=week].error,
+.promin textarea.error { background-color: red; }
+
+div.progress-bar {
+    height: 1rem;
+    width: 100%;
+    display: block;
+    background: #ccc;
+    line-height: 0 !Important;
+}
+
+.progress-bar .bar {
+    background: #999;
+    display: inline-block;
+    height: 100%;
+    -webkit-transition: width 0.2s;
+    -moz-transition: width 0.2s;
+    -ms-transition: width 0.2s;
+    transition: width 0.2s;
+}
+
+.promin .pm-step {
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+
+.promin .givesf-promin-nav {
+	margin: 1rem 0;
+}
